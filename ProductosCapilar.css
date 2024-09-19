@@ -69,7 +69,7 @@ header{
     right: 0;
 
     background-color: #fff;
-    width: 500px;
+    width: 650px;
     z-index: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     border-radius: 10px;
@@ -91,6 +91,12 @@ header{
     flex: 0.8;
 }
 
+.imagen-producto {
+    width: 60px; 
+    height: auto; 
+    object-fit: cover; 
+}
+
 .titulo-producto-carrito{
     font-size: 15px;
 }
@@ -103,7 +109,7 @@ header{
 
 .cantidad-producto-carrito{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .icon-close{
@@ -187,10 +193,10 @@ h1 {
 }
 
 nav ul li a.active {
-    color: #ffffff; /* Cambia el color del texto si lo deseas */
-    background-color: #523f29; /* Color de fondo del recuadro */
-    border: 2px solid #523f29; /* Color y grosor del borde */
-    font-weight: bold; /* Opcional: cambia el peso de la fuente para mayor énfasis */
+    color: #ffffff; 
+    background-color: #523f29; 
+    border: 2px solid #523f29; 
+    font-weight: bold; 
 }
 
 
@@ -256,9 +262,9 @@ color: #523f29;
 }
 
 .social-media img {
-    width: 45px; /* Define el ancho de las imágenes de redes sociales */
-    height: auto; /* Mantiene la proporción de las imágenes */
-    margin-left: 40px; /* Añade margen a la izquierda de las imágenes */
+    width: 45px; 
+    height: auto;
+    margin-left: 40px; 
 }
 
 .cart-empty{
@@ -267,5 +273,5 @@ color: #523f29;
 
 }
 .hidden {
-    display: none; /* La clase que oculta los elementos */
+    display: none; 
 }

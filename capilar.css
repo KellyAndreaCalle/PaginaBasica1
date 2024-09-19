@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+    background-color: #d4d1cb; 
+    font-family: 'Courier New'; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: #523f29; 
+}
+
+.icon-cart{
+    margin-top: 60px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    stroke: #523f29;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0;
+}
+
+.container-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 60%;
+    right: 20px;
+
+    background-color: #523f29;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.container-cart-products{
+    position: absolute;
+    top: 120px;
+    right: 0;
+
+    background-color: #fff;
+    width: 500px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+
+.cart-product{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+
+
+.titulo-producto-carrito{
+    font-size: 15px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+
+nav {
+    position: relative;
+    margin-top: -80px; 
+    margin-bottom: 100px;
+}
+
+
+nav ul {
+    display: flex; 
+    list-style-type: none; 
+    margin-right: 70px; 
+    padding: 0; 
+    justify-content: right;
+}
+
+nav ul li {
+    margin-right: 70px;
+    margin-top: -30px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    font-size: 16px; 
+    color: #523f29; 
+    font-family: 'Courier New';
+    cursor: pointer;
+}
+
+h1 {
+    text-align: left center; 
+    margin-left: none; 
+    margin-top: 20px; 
+    font-size: 50px; 
+    margin-left: 70px;
+}
+
+#box1 {
+    margin-bottom: 10px; 
+}
+
+#box2 {
+    margin-top: -10px;
+}
+
+.social-media img {
+    width: 45px; 
+    height: auto; 
+    margin-left: 40px; 
+}
+
+.cart-empty{
+    padding: 20px;
+    text-align:center;
+
+}
+.hidden {
+    display: none; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: auto; 
+    overflow: hidden; 
+}
+
+.contenedor img {
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+.contenedor2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+.contenedor2 img {
+    width: 30%; 
+    height: auto; 
+    object-fit: cover;
+}
