@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Imagenes/fondo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: hsl(0, 0%, 0%); 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #523f29;
+    padding: 20px 0;
+}
+.container-menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    display: inline-block; 
+    margin: 0 15px;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+.menu li a:hover {
+    color: #ffcc00;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.144);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-container {
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#limpiar {
+    background-color: #f44336;
+    color: white;
+}
+
+button#guardar {
+    background-color: #4CAF50;
+    color: white;
+}

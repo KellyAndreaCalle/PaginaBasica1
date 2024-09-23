@@ -1,7 +1,10 @@
 body {
-    margin: 0;
-    background-color: #d4d1cb;
-    font-family: 'Courier New';
+    margin: 0; 
+    background-color: #d4d1cb; 
+    font-family: 'Courier New'; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: #523f29; 
 }
 .main-container {
     display: flex;
@@ -11,7 +14,7 @@ body {
 }
 
 .contenedor {
-    width: 33%;
+    width: 30%;
     float: right;
     margin-top: -35px;
     
@@ -20,7 +23,7 @@ body {
 .sections {
     display: flex;
     justify-content: space-around;
-    width: 66%;
+    width: 60%;
     margin-bottom: 40px;
 }
 
