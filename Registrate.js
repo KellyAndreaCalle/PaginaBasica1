@@ -6,3 +6,4 @@ document.getElementById('registroForm').addEventListener('submit', function(even
     event.preventDefault();
     alert('Formulario guardado');
 });
+
