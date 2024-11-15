@@ -86,3 +86,16 @@ button#guardar {
     background-color: #4CAF50;
     color: white;
 }
+
+.fondo {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; 
+    background-image: url('../Imagenes/fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    z-index: -1;
+}
