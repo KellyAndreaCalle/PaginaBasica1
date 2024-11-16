@@ -1,24 +1,47 @@
-body {
+*{
     margin: 0;
     padding: 0;
-}
-
-
-.main {
+    }
+    
+    
+    .main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-
-.section {
+    
+    }
+    
+    .section {
     position: relative;
     width: 300px;
-    height: 100vh;
-    background-color: rgba(0, 170, 255, 0.667);
-}
-
-
-.productos {
+    height: 150vh;
+    background-color: #26ca;
+    }
+    
+    .d-inline-flex {
+    text-align: center;
+    width: 100%;
+    }
+    
+    
+    .btnp {
+    width: 100%;
+    }
+    
+    .collapsing > .card-body{
+    background-color: #26c0;
+    color: #fff;
+    }
+    
+    .show > .card-body {
+    background-color: #26c0;
+    color: #fff;
+    }
+    
+    
+    
+    
+    .productos {
     /* background-image: url('../img/fondo2.webp'); */
     flex: 1;
     margin: auto;
@@ -27,30 +50,68 @@ body {
     left: 300px;
     top: 20px;
     width: 70%;
-    height: 100vh;
-
-}
-
-
-.form-control {
+    height: auto;
+    
+    }
+    
+    
+    .form-control {
     display: flex;
     width: 100px;
     text-align: center;
-}
-
-.lista-productos {
+    }
+    
+    .lista-productos {
     display: block;
     width: 20px;
     height: 20px;
-}
-
-
-#tabla-productos {
-  margin-top: 50px;
-  width: 100%;
-}
-
-
-.btn-primary {
-    width: 300px;
-}
+    }
+    
+    
+    #tabla-productos {
+    margin-top: 50px;
+    width: 100%;
+    }
+    
+    #marca {
+    width: 100%;
+    text-align: center;
+    }
+    
+    
+    .modal-footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    }
+    
+    /* .modal-footer >.btn-primary {
+    margin: auto;
+    } */
+    
+    
+    .formulario {
+    margin: auto;
+    text-align: center;
+    /* border: solid #0001 5px; */
+    
+    }
+    
+    
+    .formulario input {
+    margin-top: 8px;
+    margin-bottom: 7px;
+    border-radius: 9px;
+    padding: 8px;
+    }
+    
+    
+    .formulario select {
+    margin-top: 9px;
+    border-radius: 9px;
+    }
+    
+    #guardar {
+    margin-top: 15px;
+    }
