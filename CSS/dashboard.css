@@ -42,7 +42,7 @@
     
     
     .productos {
-    /* background-image: url('../img/fondo2.webp'); */
+  
     flex: 1;
     margin: auto;
     position: absolute;
@@ -86,16 +86,13 @@
     margin: auto;
     }
     
-    /* .modal-footer >.btn-primary {
-    margin: auto;
-    } */
+
     
     
     .formulario {
     margin: auto;
     text-align: center;
-    /* border: solid #0001 5px; */
-    
+   
     }
     
     
